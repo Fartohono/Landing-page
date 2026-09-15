@@ -1,0 +1,161 @@
+.container{
+    max-width: 1264px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto ;
+    outline:  1px solid red;
+}
+.header{
+    padding-top: 20px;
+}
+.header-container{
+   display: flex;
+   align-items: center; 
+border-radius: 60px;
+background:  #FEFCF7;
+padding: 20px;
+}
+.header-logo{
+    color: #161616;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.header-leaf{
+    width: 24.0px;
+height: 26.0px;
+
+    fill:  #ED952B;
+
+}
+.header-btn{
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+}
+.header-menu{
+    width: 18.0px;
+height: 12.0px;
+
+    fill:  #424242;
+
+}
+.header-list{
+    display: none;
+}
+.header-items{
+    display: none;
+}
+.hero-title{
+    width: 362.0px;
+height: 105.0px;
+
+    align-self: stretch;
+color: #161616;
+text-align: center;
+font-family: Manrope;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%;
+
+}
+.hero-text{
+    width: 362.0px;
+height: 75.0px;
+
+    align-self: stretch;
+color:  #454444;
+text-align: center;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.hero-btn{
+    width: 178.0px;
+height: 22.0px;
+
+height: 50.0px;
+padding: 14px 18px;
+color: var(--White, #FFF);
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 100px;
+background: var(--Trial-Black, #161616);
+
+}
+.hero-arrow{
+    stroke-width: 1px;
+stroke: #FFF; 
+}
+@media (min-width:382px) {
+  .container{
+    width: 382px;
+
+  }  
+}
+@media (min-width:1264px) {
+    .container {
+        width: 1264px;
+            padding-left: 12px;
+            padding-right: 12px;
+    }
+    .header-btn{
+        display: none;
+    }
+    .header-list{
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+        gap: 32px;
+    }
+    .header-items{
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        gap: 32px;
+    }
+    .header-link{
+        color: #161616;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+    }
+.header-elem:last-child{
+    padding: 8px 14px;
+border: 1px solid #161616;
+border-radius: 100px;
+}
+.header-elem{
+    color: #161616;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.header-link:focus,:visited{
+    color:  #161616;
+
+
+}
+}
